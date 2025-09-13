@@ -1,0 +1,16 @@
+package EST.blog.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class UserViewController {
+    @GetMapping("/login")
+    public String login(){
+        return "login";     //login.html 열기
+    }
+    @GetMapping("/signup")
+    public String signUp(){
+        return "signup";    //signup.html 파일 열기
+    }
+}

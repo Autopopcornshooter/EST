@@ -1,0 +1,8 @@
+### 주문 조회(GET)
+GET http://localhost:8080/orders/3
+
+### 배송 조회(GET)
+GET http://localhost:8080/orders/4/delivery
+
+### 주문 품목 조회(GET)
+GET http://localhost:8080/orders/1/products
